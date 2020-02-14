@@ -8,23 +8,32 @@ html, body {
 
 .coming-soon {
   
-   height: 100%;
-   width: 100%;
-   background-color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   .content {
+    position: relative;
   	display: flex;
     align-items: center;
     flex-direction: column;
     color: #469EA0;
+    top: -20px;
   }
   
   .title {
     font-size: 2em;
     letter-spacing: 8px;
+  }
+
+  .logo-responsive {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
   }
   
 }
